@@ -1,0 +1,231 @@
+/*
+ Theme Name:   Twenty Thirteen, Puzzled Pint
+ Theme URI:    http://netninja.com
+ Description:  Twenty Thirteen Child Theme for Puzzled Pint's blog
+ Author:       Brian Enigma
+ Author URI:   http://netninja.com
+ Template:     twentythirteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-thirteen-child
+*/
+
+/* Overall Page ============================================================= */
+
+body {
+    background-color:#363636;
+    color:#fff;
+    font-family:helvettica, Verdana, sans-serif;
+    font-size:14px;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    font-family:helvettica, Verdana, sans-serif;
+    color:#fff;
+}
+
+a, a:hover, a:visited {
+    color:#2380b6;
+}
+
+/* Header ============================================================= */
+
+.site-header {
+    background-image:none;
+}
+
+#masthead {
+    background-image:none;
+    width:900px;
+    height:130px;
+    margin:0 auto;
+}
+
+#pintlogo {
+    float:left;
+    width:158px;
+    height:95px;
+    padding:35px 0 0 0;
+}
+#navbar {
+    /*
+    padding:95px 0 0 0;
+    float:right;
+    width:742px;
+    */
+    background-color:inherit;
+}
+
+#menu-site-menu {
+    float:right;
+}
+
+.nav-menu li a,
+.nav-menu .current_page_item > a, 
+.nav-menu .current_page_ancestor > a, 
+.nav-menu .current-menu-item > a, 
+.nav-menu .current-menu-ancestor > a
+{
+    font-size:16px;
+    padding:5px;
+    text-transform:lowercase;
+    color:#fff;
+}
+
+@media (max-width: 643px) {
+	.menu-toggle,
+	.menu-toggle:hover,
+	.menu-toggle:focus,
+	.menu-toggle:active {
+		color:#fff;
+	}
+}
+
+
+.site-header .search-field {
+	background-image: url(images/search-icon-2x-white.png);
+}
+
+/* Content ============================================================= */
+
+#page {
+    background-color:#363636;
+    color:#fff;
+}
+
+.entry-title a,
+.entry-title a:hover,
+.entry-title a:visited {
+    color:#fff;
+}
+
+.entry-meta a {
+    color:#999;
+    font-size:75%;
+}
+.entry-meta a:hover,
+.entry-meta a:visited {
+    color:#999;
+}
+
+.comments-link a {
+    color:#c66;
+    font-weight:bold;
+}
+
+.entry-content a {
+    color:#2380b6;
+    text-decoration:underline;
+}
+
+.entry-content a:hover,
+.entry-content a:visited {
+    color:#2380b6;
+}
+
+.wp-caption .wp-caption-text, .entry-caption, .gallery-caption {
+    color:#fff;
+    font-size:75%;
+    line-height:1.25;
+}
+
+.author-info {
+    font-size:14px;
+}
+
+.author-heading {
+    font-size:14px;
+    margin:5px auto;
+}
+
+.author-avatar {
+}
+
+.author-title {
+    font-size:14px;
+}
+
+.author-bio {
+    font-size:10px;
+    color:#ccc;
+}
+
+a.author-link, a.author-link:hover, a.author-link:visited {
+    color:#2380b6;
+}
+
+/* Comments ============================================================= */
+
+.comment-respond {
+    background-color:#565656;
+}
+
+.comment-author .fn, .comment-author .url, .comment-reply-link, .comment-reply-login {
+    color:#c66;
+}
+
+.byuser > .comment-body .fn:before {
+    color:#2380b6;
+}
+
+/* Paging ============================================================= */
+
+.page-header, 
+.paging-navigation, 
+.post-navigation,
+.archive-header {
+    border-top: solid 1px #999;
+    border-bottom: solid 1px #999;
+    border-collapse: collapse;
+    background-color:#565656;
+}
+
+.paging-navigation a, 
+.post-navigation a,
+.archive-navigation a {
+    color:#2380b6;
+}
+.paging-navigation a:hover,
+.paging-navigation a:visited,
+.post-navigation a:hover,
+.post-navigation a:visited
+.archive-navigation a:hover,
+.archive-navigation a:visited {
+    color:#43a0d6;
+}
+.paging-navigation .meta-nav {
+    background-color:#2380b6
+}
+.paging-navigation a:hover .meta-nav,
+.paging-navigation a:visited .meta-nav {
+    background-color:#43a0d6;
+}
+
+.form-allowed-tags, .form-allowed-tags code {
+    color:#ccc;
+}
+
+/* Footer ============================================================= */
+
+.site-footer {
+    background-color:#363636;
+}
+
+.site-footer a, .site-footer a:hover, .site-footer a:visited, 
+.site-footer .widget a, .site-footer .widget a:hover, .site-footer .widget a:visited {
+    color:#2380b6;
+}
+
+#secondary {
+    background-color:#363636;
+    border-top: solid 1px #999;
+    border-bottom: solid 1px #999;
+    border-collapse: collapse;
+}
+
+.site-info {
+    background-color:#363636;
+    font-size:75%;
+}
